@@ -5,7 +5,8 @@ def base_hash
 hash = { 
   :railroads => {}
 }
-return hash
+ hash
+ true
 end
 
 def monopoly_with_second_tier
