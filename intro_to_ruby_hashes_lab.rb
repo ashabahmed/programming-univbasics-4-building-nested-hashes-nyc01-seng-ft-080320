@@ -32,7 +32,9 @@ def monopoly_with_third_tier
   somethingelse = monopoly_with_second_tier
   
   somethingelse[:railroads][:rent_in_dollars][:one_piece_owned] = 25
-
+  somethingelse[:railroads][:rent_in_dollars][:two_piece_owned] = 50
+  somethingelse[:railroads][:rent_in_dollars][:three_piece_owned] = 100
+  somethingelse[:railroads][:rent_in_dollars][:four_piece_owned] = 200
 somethingelse
 end
 
