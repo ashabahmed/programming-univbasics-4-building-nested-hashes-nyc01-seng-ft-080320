@@ -15,8 +15,6 @@ def monopoly_with_second_tier
   something = base_hash
   binding.pry
    something[:railroads][:pieces] = 4
-   something[:railroads][:rent_in_dollars] = {}
-   something[:railroads][:names] = {}
 
 end
 
