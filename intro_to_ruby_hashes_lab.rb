@@ -15,7 +15,7 @@ def monopoly_with_second_tier
   something = base_hash
   somethinelse = base_hash
   something[:railroads][:pieces] = "4"
-  return something
+  return [something, somethinelse]
 end
 
 
