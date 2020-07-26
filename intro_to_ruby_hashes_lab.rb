@@ -31,7 +31,7 @@ def monopoly_with_third_tier
   # complexity.
   somethingelse = monopoly_with_second_tier
   
-  somethingelse[:rent_in_dollars][:one_piece_owned] = 25
+  somethingelse[:railroads][:rent_in_dollars][:one_piece_owned] = 25
 
 somethingelse
 end
