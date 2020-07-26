@@ -51,7 +51,9 @@ def monopoly_with_fourth_tier
   # complexity.
  another_something = monopoly_with_third_tier
  
- another_something[:railroads][:names][:reading_railroad][:mortgage_value] = 100
-
+  another_something[:railroads][:names][:reading_railroad][:mortgage_value] = 100
+  another_something[:railroads][:names][:reading_railroad][:mortgage_value] = 100
+  another_something[:railroads][:names][:reading_railroad][:mortgage_value] = 100
+  another_something[:railroads][:names][:reading_railroad][:mortgage_value] = 100
 another_something
 end
