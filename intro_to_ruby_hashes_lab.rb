@@ -33,5 +33,5 @@ def monopoly_with_fourth_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
   s = monopoly_with_third_tier
-  s[:railroads][:pieces][:one_piece_owned]
+  s[:railroads][:names][:one_piece_owned]
 end
